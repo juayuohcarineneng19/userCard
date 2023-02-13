@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserCard</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:ital,wght@0,600;1,300;1,400&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5rem;
+            background-color: azure;
+        }
+        .article{
+            width: 40rem;
+            background-color: #fff;
+            padding: 3rem;
+            display: grid;
+            grid-template-columns: 7rem 1fr;
+            font-family: 'Rubik', sans-serif;
+            color: #444; 
+            box-shadow: 0  1rem 0 rgba(122, 119, 119, 0); 
+        }
+        img{
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+            border: 4px solid azure;
+        }
+        .text p {
+            margin-bottom: 2rem;
+            font-weight:400;
+        }
+        .text h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            /* padding: 1rem 0; */
+            margin-top: 1rem;
+            margin-bottom: 0.5rem; 
+        }
+        .btn{
+            width: 9rem;
+            padding: 1rem;
+            background-color: #e9e6e6;
+            border: 3px solid azure;
+            font-size: 1rem;
+            font-weight: 500;
+                    }
+    </style>
+</head>
+<body>
+    <div class="article">
+        <div class="profile">
+            <img src="istockphoto-1353379172-612x612.jpg" alt="">
+        </div>
+        <div class="text">
+            <h1>David Grant</h1>
+            <p>3D Artist</p>
+            <p> <ion-icon name="star-outline"></ion-icon><span>4.7 Rating</span></p>
+            <p> <ion-icon name="medal-outline"></ion-icon><span>4.447 Reviews</span></p>
+            <p> <ion-icon name="person-outline"></ion-icon><span>478 students</span></p>
+            <p class="lorem">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
+                 nulla earum, voluptas, molestias fuga fugia
+                t id vel inventore libero veritatis esse atque est dignissimos
+                 consequatur quasi consectetur minus odit maiores!
+            </p>
+            <button class="btn">
+                Show More
+            </button>
+        </div>
+    </div>
+</body>
+</html>
